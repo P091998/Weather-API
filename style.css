@@ -1,0 +1,80 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    height: 95vh;
+    /* background-color: antiquewhite;  */
+    border: 2px solid ;
+    background-size: 1550px 800px;
+    background-repeat: no-repeat;
+}
+
+body img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+section{
+    height: 50vh;
+    width: 35vw;
+    margin: 10% auto;
+    text-align: center;
+    z-index: 1;
+}
+
+fieldset, legend, form{
+    background-color: white;
+}
+
+input{
+    width: 75%;
+    margin: 2%;
+    background-color: azure;
+    border: 1px solid gray;
+    border-radius: 10px;
+    text-align: center;
+}
+
+button{
+    width: 77%;
+    margin: 2%;
+    background-color: rgb(157, 230, 230);
+    border: none;
+    border-radius: 10px;
+    height: 25px;
+}
+
+div{
+    width: 75%;
+    margin: 2%;
+    display: inline-block;
+    background-color: white;
+}
+
+h3{
+    background-color: white;
+}
+
+@media screen and(max-width:800){
+    section{
+        width:50vw;
+    }
+}
+
+@media screen and(max-width:600){
+    section{
+        width:70vw;
+    }
+}
+
+@media screen and(max-width:450){
+    section{
+        width:80vw;
+    }
+}
+
+@media screen and(max-width:410){
+    section{
+        width:100vw;
+    }
+}
